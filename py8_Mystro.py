@@ -40,11 +40,9 @@ for n in range(1,11):
 # Exanple 2 , Matrix erstellen in test
 row=int(input("Enter number of rows: "))
 col=int(input("Enter number of cols: "))
-for k in range(0,26,1):
-    print('ok')
 for i in range(row):
     for j in range(col):
-        print('k',end='')     # end befehl um den untereinander
+        print(,end='')     # end befehl um den untereinander
     print(' ')
 
 
