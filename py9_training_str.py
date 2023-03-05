@@ -23,3 +23,4 @@ print(len(name7))
 # to replace a word or somthing like that
 name8="html and css and JS and python"
 print(name8.replace("python", "php"))  # html and css and JS and php
+

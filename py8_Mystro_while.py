@@ -38,12 +38,6 @@ print('-----------------')
 for n in range(1,11):
     print(n,'\t\t',n*n)
 # Exanple 2 , Matrix erstellen in test
-row=int(input("Enter number of rows: "))
-col=int(input("Enter number of cols: "))
-for i in range(row):
-    for j in range(col):
-        print(,end='')     # end befehl um den untereinander
-    print(' ')
 
 
 
