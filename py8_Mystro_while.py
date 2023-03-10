@@ -30,7 +30,7 @@ print('++++++++++++++++++')
 for y in range(0,11,1):
     if y==5:
         continue
-    print(y)#
+    print(y)
 print('++++++++++++++++++')
 # Example for loop
 print('Number\tsqrt')

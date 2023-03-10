@@ -1,3 +1,7 @@
+# convert the int to str for "Verkettung"
+user="ziad"
+age=27
+print("i am" + " " + user + " and i am " + str(age) )
 # to make the letter capitel
 name = "ziad"
 print(name.upper())

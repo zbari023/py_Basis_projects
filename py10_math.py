@@ -1,8 +1,5 @@
 # Verkettung num and str
 from math import *
-user="ziad"
-age=27
-print("i am" + " " + user + " and i am " + str(age) )  # convert the int to str for "Verkettung"
 
 # round function
 print(round(4.6))  # 5
@@ -18,5 +15,25 @@ print(max(4,5))
 print(min(88,100))
 
 
+# a new calculator using python
+
+print("my new calculator using python")
+num1 = float(input("Enter your first Number: "))
+operator = input("enter your operator: ")
+num2 = float(input("Enter your second Number: "))
+if operator == "+":
+    print(num1+num2)
+elif operator == "-":
+    print(num1-num2)
+elif operator == "*":
+    print(num1*num2)
+elif operator == "/":
+    print(num1/num2)
+elif operator == "//":
+    print(num1//num2)
+elif operator == "^":
+    print(pow(num1,num2))
+else :
+    print("error")
 
 

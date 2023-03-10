@@ -1,3 +1,9 @@
+# Listen und ausgeführten Befehle:
+nameList = ["ziad" , "Andree" , "stefan" , 7 , 8.3]  # kann veschiedene variabeln enthalten
+print(nameList)
+print(nameList[-1])  # Egal wie viel Elemente wir haben mit -1 greifen wir den letzten Element
+print(nameList[0])  # wird von 0 angefangen um den ersten stelle zu greifen
+
 # add a element in our str
 x=[1,3,2,5,4,6,7]
 y=[11,12,13,14,15,16]
