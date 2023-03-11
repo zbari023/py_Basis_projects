@@ -1,40 +1,50 @@
 # oop training
+
 class Calculator:  # class
-    def __init__(self,name):  # constructor, which alone called
+    def __init__(self, name):  # constructor, which alone called # encapsulation with self
         print(f'welcome {name}')
 
     def summe(self, i, j):  # method
         print(i + j);
 
 
-res = Calculator('everyone')
-res.summe(2, 8)
+class Scical(Calculator):  # inheritance
+    def multi(self, i, j):
+        print(i * j)
 
-'''
+
+erg = Scical('Bari')
+erg.summe(45, 7)
+
+
+
 # in test
-class mobil:
-    def __int__(self, Art, color, price):
+
+class Mobil:
+    def __init__(self, Art, price):
         self.Art = Art
-        self.color = color
         self.price = price
+    def show(self):
+        print(self.Art + " is neu!")
+        print(f"{self.price} is good price!")
 
+c1 = Mobil('S8', '1200')
+c1.show()
 
-samsung = mobil('s8', 'red', '900')
-print(samsung.marka)
-'''
-'''
 # Example 2
+
 class Car:
-   # Constructor
-   def __init__(self, name, year_built, model):
+   
+   def __init__(self, name, year_built, model):           # Constructor
        self.name = name
        self.year_built = year_built
        self.model = model
 
-   def __repr__(self):
-        return f'Car({self.name},{self.year_built},{self.model})'
+   def show(self):
+         print(f'Car({self.name},{self.year_built},{self.model})')
 
 
-c1 = Car('minicooper','1970','MX1')
-print(c1)
-'''
+c2 = Car('minicooper','1970','MX1')
+c2.show()
+
+

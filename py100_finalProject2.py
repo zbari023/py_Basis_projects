@@ -12,7 +12,7 @@ while in_user != user and in_password != password and not condition:
         in_password = input("Enteryour password: ")
         count += 1
         print(f"you have only {limit - count}")
-    if in_user==user and in_password==password:
+        if in_user==user and in_password==password:
            print("completed")
     else:
         condition=True
