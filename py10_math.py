@@ -37,3 +37,6 @@ else :
     print("error")
 
 
+from py_OOP2 import Maximum    # call of class in py_oop2
+
+

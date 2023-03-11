@@ -4,3 +4,4 @@ print(len(tubleName))          # Anzahl der Elemente
 
 print(max(tubleName))          # max
 print(min(tubleName))          # min
+
