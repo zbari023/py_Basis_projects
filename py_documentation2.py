@@ -13,3 +13,4 @@ writing = file.write(' \n i am here and \n My name is ziad Ibrahim Bari from syr
 print(writing)
 print(file.tell())
 file.close()
+os.rename('test.txt','test2.txt')       # rename the file-name
