@@ -17,7 +17,7 @@ while in_user != user and in_password != password and not condition:
     else:
         condition=True
         print(f"you had used {count} times ")
-        print("please click the link below to take the contact with our support")
+        print("wrong log in ,please click the link below to take the contact with our support")
 
 
 
